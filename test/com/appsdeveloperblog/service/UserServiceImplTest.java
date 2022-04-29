@@ -1,13 +1,6 @@
 package com.appsdeveloperblog.service;
 
-import com.appsdeveloperblog.io.UsersDatabase;
-import com.appsdeveloperblog.io.UsersDatabaseMapImpl;
 import org.junit.jupiter.api.*;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
