@@ -9,6 +9,7 @@ public class UserServiceImpl implements UserService {
 
     UsersDatabase usersDatabase;
 
+
     public UserServiceImpl(UsersDatabase usersDatabase) {
         this.usersDatabase = usersDatabase;
     }
